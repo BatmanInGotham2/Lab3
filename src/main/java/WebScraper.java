@@ -26,8 +26,8 @@ public class WebScraper {
 
     public static void main(String [] args) {
         String urlStr = urlToString("https://www.bls.gov/tus/charts/chart9.txt");
-        //System.out.println(wordCount(""+wordCount(urlStr)));
-        System.out.println(urlStr);
+        System.out.println(wordCount(""+wordCount(urlStr)));
+        //System.out.println(urlStr);
     }
 
     public static int wordCount(String url) {
